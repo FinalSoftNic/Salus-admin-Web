@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-blue-primary: #449fe4;
+  --color-blue-secondary: #c3e2f5;
+  --color-green-primary: #10b981;
+  --color-dark-text: #1a1a1a;
+  --color-light-text: #ffffff;
+  --color-bg-gradient-start: #e0f7fa;
+  --color-bg-gradient-end: #b2ebf2;
+}
+
+body {
+  /* Fondo general de la aplicación */
+  background-color: var(--color-bg-gradient-start);
+  background-image: linear-gradient(to right, var(--color-bg-gradient-start), var(--color-bg-gradient-end));
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
